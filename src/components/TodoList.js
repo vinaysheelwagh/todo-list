@@ -74,7 +74,7 @@ const TodoList = () => {
             <input 
                 type="text" 
                 className="grocery" 
-                placeholder="eg. egg"
+                placeholder="eg. test-code"
                 value={name}
                 onChange={(e)=>setName(e.target.value)}
             />
